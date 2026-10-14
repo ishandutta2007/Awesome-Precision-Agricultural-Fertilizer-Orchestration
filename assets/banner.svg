@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="100%" height="240" style="border-radius: 12px; overflow: hidden; background: #07150e;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04120b" />
+      <stop offset="50%" stop-color="#0a2318" />
+      <stop offset="100%" stop-color="#031008" />
+    </linearGradient>
+    
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#55f5a3" />
+      <stop offset="40%" stop-color="#a3ff75" />
+      <stop offset="100%" stop-color="#38ef7d" />
+    </linearGradient>
+
+    <linearGradient id="accent-pulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11998e" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38ef7d" stop-opacity="0.2" />
+    </linearGradient>
+
+    <radialGradient id="satellite-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#4ade80" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Scanning grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b4d32" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1.5" fill="#38ef7d" fill-opacity="0.25" />
+    </pattern>
+
+    <style>
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.08); }
+      }
+      @keyframes scanLine {
+        0% { transform: translateY(-50px); opacity: 0; }
+        20% { opacity: 0.6; }
+        80% { opacity: 0.6; }
+        100% { transform: translateY(260px); opacity: 0; }
+      }
+      @keyframes floatParticle {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-8px) translateX(5px); }
+      }
+      .radar-arm {
+        transform-origin: 810px 120px;
+        animation: radarSweep 10s linear infinite;
+      }
+      .glow-pulse {
+        transform-origin: 810px 120px;
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .scanning-beam {
+        animation: scanLine 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+      .floating-leaf-1 {
+        animation: floatParticle 5s ease-in-out infinite;
+      }
+      .floating-leaf-2 {
+        animation: floatParticle 7s ease-in-out infinite 1s;
+      }
+      .badge-pill {
+        transition: all 0.3s ease;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas Background -->
+  <rect width="920" height="240" fill="url(#bg-grad)" />
+
+  <!-- Background Grid -->
+  <rect width="920" height="240" fill="url(#grid)" />
+
+  <!-- Animated Scanner / Precision Wave (Subtle background layer) -->
+  <g class="scanning-beam" opacity="0.4">
+    <line x1="0" y1="0" x2="920" y2="0" stroke="url(#title-grad)" stroke-width="1.5" stroke-dasharray="8 4" />
+  </g>
+
+  <!-- Right Side: Radar / Zonal Prescriptions Orbital Graphics (Behind Text) -->
+  <g opacity="0.65">
+    <!-- Pulse Aura -->
+    <circle class="glow-pulse" cx="810" cy="120" r="85" fill="url(#satellite-glow)" />
+    
+    <!-- Concentric Field Management Rings -->
+    <circle cx="810" cy="120" r="95" fill="none" stroke="#1d5c3a" stroke-width="1" stroke-dasharray="4 6" opacity="0.6" />
+    <circle cx="810" cy="120" r="70" fill="none" stroke="#2a7a4f" stroke-width="1.2" opacity="0.7" />
+    <circle cx="810" cy="120" r="45" fill="none" stroke="#38ef7d" stroke-width="1" stroke-dasharray="6 4" opacity="0.8" />
+    <circle cx="810" cy="120" r="20" fill="#113d25" stroke="#55f5a3" stroke-width="1.5" />
+    <circle cx="810" cy="120" r="4" fill="#a3ff75" />
+
+    <!-- Radar Line -->
+    <g class="radar-arm">
+      <line x1="810" y1="120" x2="905" y2="120" stroke="#55f5a3" stroke-width="1.5" stroke-linecap="round" opacity="0.75" />
+      <polygon points="810,120 905,100 905,120" fill="url(#title-grad)" opacity="0.15" />
+    </g>
+
+    <!-- Precision Data Nodes -->
+    <g class="floating-leaf-1">
+      <circle cx="750" cy="70" r="3.5" fill="#55f5a3" />
+      <circle cx="750" cy="70" r="7" fill="none" stroke="#55f5a3" stroke-width="0.8" opacity="0.5" />
+      <line x1="750" y1="70" x2="810" y2="120" stroke="#38ef7d" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="3 3" />
+    </g>
+    <g class="floating-leaf-2">
+      <circle cx="865" cy="175" r="3" fill="#a3ff75" />
+      <line x1="865" y1="175" x2="810" y2="120" stroke="#a3ff75" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="3 3" />
+    </g>
+    <circle cx="765" cy="170" r="2.5" fill="#38ef7d" opacity="0.8" />
+  </g>
+
+  <!-- Left Accent Tech Line -->
+  <rect x="0" y="0" width="6" height="240" fill="url(#title-grad)" />
+
+  <!-- FOREGROUND CONTENT: Safe from animation obstruction -->
+  <g transform="translate(48, 0)">
+    <!-- Category Eyebrow Pill -->
+    <g transform="translate(0, 32)">
+      <rect x="0" y="0" width="310" height="24" rx="12" fill="#0d311f" stroke="#227447" stroke-width="1" />
+      <circle cx="12" cy="12" r="4" fill="#55f5a3" />
+      <text x="24" y="16" fill="#86efac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">PRECISION AGTECH &amp; SMART FARMING</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="98" fill="url(#title-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="900" letter-spacing="0.5">Awesome Fertilizer Orchestration</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="128" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="500" letter-spacing="0.2">Variable Rate Application • Satellite Prescription Mapping • Nutrient Zoning</text>
+
+    <!-- Description line -->
+    <text x="0" y="152" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400">Curated SaaS ecosystems, open-source agronomic models &amp; VRA prescription engines</text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 178)">
+      <!-- Pill 1 -->
+      <g>
+        <rect x="0" y="0" width="180" height="28" rx="6" fill="#0b291a" stroke="#1d663c" stroke-width="1" />
+        <text x="12" y="18" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">🛰️ Satellite Remote Sensing</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(190, 0)">
+        <rect x="0" y="0" width="168" height="28" rx="6" fill="#0b291a" stroke="#1d663c" stroke-width="1" />
+        <text x="12" y="18" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">🌱 VRA Prescriptions</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(368, 0)">
+        <rect x="0" y="0" width="182" height="28" rx="6" fill="#0b291a" stroke="#1d663c" stroke-width="1" />
+        <text x="12" y="18" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">📊 Multi-Zone Yield Models</text>
+      </g>
+    </g>
+  </g>
+</svg>
