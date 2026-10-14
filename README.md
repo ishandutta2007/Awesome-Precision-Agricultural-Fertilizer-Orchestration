@@ -1,6 +1,6 @@
 # Awesome-Precision-Agricultural-Fertilizer-Orchestration
 
-# Top Precision Agricultural Fertilizer Orchestration Ecosystem
+## Top Precision Agricultural Fertilizer Orchestration Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Variable Rate Application, Nutrient Zoning & Satellite-Based Prescription Mapping*  
