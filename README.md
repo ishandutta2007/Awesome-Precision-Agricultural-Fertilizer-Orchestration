@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration?style=flat-square&logo=github&color=orange" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Precision-Agricultural-Fertilizer-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -72,60 +72,60 @@ The following table summarizes the category leaders in precision agricultural fe
 
 An expanded, verified collection of open-source software, GIS toolkits, agronomic simulation engines, and machine learning pipelines powering precision agriculture and fertilizer orchestration.
 
-> **Sorted in descending order by GitHub Stars.** Click any social star badge to visit the stargazers page for that repository!
+> **Sorted in descending order by GitHub_Stars.** Click any social Stars_Badge to visit the stargazers page for that repository!
 
-1. **[QGIS](https://github.com/qgis/QGIS)** [![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white)](https://github.com/qgis/QGIS/stargazers)  
+1. **[QGIS](https://github.com/qgis/QGIS)** [![GitHub_Stars](https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white)](https://github.com/qgis/QGIS/stargazers)  
    *The premier open-source Geographic Information System (GIS).* The universal standard for precision agriculture spatial analysis, yield monitor data cleaning, multispectral raster calculation (NDVI, NDRE, EVI), multi-zone delineation, and Shapefile/ISOXML variable-rate prescription map generation.
 
-2. **[FarmBot OS](https://github.com/FarmBot/farmbot_os)** [![GitHub stars](https://img.shields.io/github/stars/FarmBot/farmbot_os?style=social&color=white)](https://github.com/FarmBot/farmbot_os/stargazers)  
+2. **[FarmBot OS](https://github.com/FarmBot/farmbot_os)** [![GitHub_Stars](https://img.shields.io/github/stars/FarmBot/farmbot_os?style=social&color=white)](https://github.com/FarmBot/farmbot_os/stargazers)  
    *The operating system running on FarmBot precision agricultural robots (Raspberry Pi).* Automates micro-scale precision agricultural operations including coordinate-specific seed placement, soil moisture monitoring, and millimeter-accurate micro-dose liquid fertilizer application directly to individual plant root zones.
 
-3. **[FarmBot Web App](https://github.com/FarmBot/Farmbot-Web-App)** [![GitHub stars](https://img.shields.io/github/stars/FarmBot/Farmbot-Web-App?style=social&color=white)](https://github.com/FarmBot/Farmbot-Web-App/stargazers)  
+3. **[FarmBot Web App](https://github.com/FarmBot/Farmbot-Web-App)** [![GitHub_Stars](https://img.shields.io/github/stars/FarmBot/Farmbot-Web-App?style=social&color=white)](https://github.com/FarmBot/Farmbot-Web-App/stargazers)  
    *Full-stack web management interface for FarmBot precision agriculture.* Provides a visual 2D farm designer, automated sequence scheduler, soil sensor historical analytics, and automated watering/fertilizing regimes.
 
-4. **[sentinelhub-py](https://github.com/sentinel-hub/sentinelhub-py)** [![GitHub stars](https://img.shields.io/github/stars/sentinel-hub/sentinelhub-py?style=social&color=white)](https://github.com/sentinel-hub/sentinelhub-py/stargazers)  
+4. **[sentinelhub-py](https://github.com/sentinel-hub/sentinelhub-py)** [![GitHub_Stars](https://img.shields.io/github/stars/sentinel-hub/sentinelhub-py?style=social&color=white)](https://github.com/sentinel-hub/sentinelhub-py/stargazers)  
    *Python library for downloading and processing satellite imagery using Sentinel Hub APIs.* Enables automated acquisition of European Space Agency (ESA) Sentinel-2 multispectral bands, cloud masking, and on-the-fly NDVI/biomass calculation required for dynamic within-field nitrogen zoning.
 
-5. **[PCSE (Python Crop Simulation Environment)](https://github.com/ajwdewit/pcse)** [![GitHub stars](https://img.shields.io/github/stars/ajwdewit/pcse?style=social&color=white)](https://github.com/ajwdewit/pcse/stargazers)  
+5. **[PCSE (Python Crop Simulation Environment)](https://github.com/ajwdewit/pcse)** [![GitHub_Stars](https://img.shields.io/github/stars/ajwdewit/pcse?style=social&color=white)](https://github.com/ajwdewit/pcse/stargazers)  
    *Python implementation of classical Wageningen crop simulation models (WOFOST, LINTUL).* Simulates daily crop growth, phenological development, dry matter partitioning, soil moisture dynamics, and nitrogen demand under variable climate conditions for precision nutrient scheduling.
 
-6. **[LiteFarm](https://github.com/LiteFarmOrg/LiteFarm)** [![GitHub stars](https://img.shields.io/github/stars/LiteFarmOrg/LiteFarm?style=social&color=white)](https://github.com/LiteFarmOrg/LiteFarm/stargazers)  
+6. **[LiteFarm](https://github.com/LiteFarmOrg/LiteFarm)** [![GitHub_Stars](https://img.shields.io/github/stars/LiteFarmOrg/LiteFarm?style=social&color=white)](https://github.com/LiteFarmOrg/LiteFarm/stargazers)  
    *Community-led, participatory farm management software developed at the University of British Columbia.* Designed for diversified farmers to track field plans, soil health, nutrient inputs, and organic certifications, featuring emerging modules for variable-rate irrigation and input management.
 
-7. **[DSSAT CSM](https://github.com/DSSAT/dssat-csm-os)** [![GitHub stars](https://img.shields.io/github/stars/DSSAT/dssat-csm-os?style=social&color=white)](https://github.com/DSSAT/dssat-csm-os/stargazers)  
+7. **[DSSAT CSM](https://github.com/DSSAT/dssat-csm-os)** [![GitHub_Stars](https://img.shields.io/github/stars/DSSAT/dssat-csm-os?style=social&color=white)](https://github.com/DSSAT/dssat-csm-os/stargazers)  
    *Decision Support System for Agrotechnology Transfer (Cropping System Model).* World-renowned biophysical crop simulation model simulating over 42 crops. Models nitrogen cycling, mineralization, urea hydrolysis, nitrate leaching, and dynamic crop nutrient uptake across contrasting soil layers.
 
-8. **[APSIM Next Generation](https://github.com/APSIMInitiative/ApsimX)** [![GitHub stars](https://img.shields.io/github/stars/APSIMInitiative/ApsimX?style=social&color=white)](https://github.com/APSIMInitiative/ApsimX/stargazers)  
+8. **[APSIM Next Generation](https://github.com/APSIMInitiative/ApsimX)** [![GitHub_Stars](https://img.shields.io/github/stars/APSIMInitiative/ApsimX?style=social&color=white)](https://github.com/APSIMInitiative/ApsimX/stargazers)  
    *Agricultural Production Systems sIMulator (C# / Cross-Platform).* Advanced framework for modeling agricultural systems, soil carbon dynamics, nitrogen transformations, solute movement, and yield responses under site-specific variable-rate fertilizer management strategies.
 
-9. **[Awesome Precision Agriculture](https://github.com/px39n/Awesome-Precision-Agriculture)** [![GitHub stars](https://img.shields.io/github/stars/px39n/Awesome-Precision-Agriculture?style=social&color=white)](https://github.com/px39n/Awesome-Precision-Agriculture/stargazers)  
+9. **[Awesome Precision Agriculture](https://github.com/px39n/Awesome-Precision-Agriculture)** [![GitHub_Stars](https://img.shields.io/github/stars/px39n/Awesome-Precision-Agriculture?style=social&color=white)](https://github.com/px39n/Awesome-Precision-Agriculture/stargazers)  
    *Comprehensive curated research collection.* Gathers foundational scientific papers, datasets, UAV algorithms, and deep learning architectures applied to remote sensing, yield prediction, and precision agriculture.
 
-10. **[Agrobot Navigation](https://github.com/nesl/agrobot)** [![GitHub stars](https://img.shields.io/github/stars/nesl/agrobot?style=social&color=white)](https://github.com/nesl/agrobot/stargazers)  
+10. **[Agrobot Navigation](https://github.com/nesl/agrobot)** [![GitHub_Stars](https://img.shields.io/github/stars/nesl/agrobot?style=social&color=white)](https://github.com/nesl/agrobot/stargazers)  
     *Neural-Kalman GNSS/INS Navigation for Precision Agriculture.* High-accuracy sensor fusion system combining GPS, IMU, and neural Kalman filtering to provide centimeter-level autonomous guidance for field sprayers and fertilizer applicator tractors.
 
-11. **[AgGateway ADAPT Framework](https://github.com/AgGateway-ADAPT/ADAPT)** [![GitHub stars](https://img.shields.io/github/stars/AgGateway-ADAPT/ADAPT?style=social&color=white)](https://github.com/AgGateway-ADAPT/ADAPT/stargazers)  
+11. **[AgGateway ADAPT Framework](https://github.com/AgGateway-ADAPT/ADAPT)** [![GitHub_Stars](https://img.shields.io/github/stars/AgGateway-ADAPT/ADAPT?style=social&color=white)](https://github.com/AgGateway-ADAPT/ADAPT/stargazers)  
     *Open-source foundational data interoperability toolkit for agricultural machinery (.NET).* Provides standard plugin architectures converting prescription maps and field operation data between proprietary formats (John Deere, Case IH, Raven, Ag Leader, Trimble, ISOXML).
 
-12. **[Precision Agriculture ML Platform](https://github.com/atharval1/precision-agriculture-using-machine-learning)** [![GitHub stars](https://img.shields.io/github/stars/atharval1/precision-agriculture-using-machine-learning?style=social&color=white)](https://github.com/atharval1/precision-agriculture-using-machine-learning/stargazers)  
+12. **[Precision Agriculture ML Platform](https://github.com/atharval1/precision-agriculture-using-machine-learning)** [![GitHub_Stars](https://img.shields.io/github/stars/atharval1/precision-agriculture-using-machine-learning?style=social&color=white)](https://github.com/atharval1/precision-agriculture-using-machine-learning/stargazers)  
     *Machine learning recommendation system.* Predicts optimal crop types and custom NPK fertilizer blends based on climatic indicators (temperature, humidity, rainfall) and soil nutrient laboratory assays.
 
-13. **[ML Precision Agriculture Web App](https://github.com/emclaniyi/ML-Precision-Agriculture-Web-App)** [![GitHub stars](https://img.shields.io/github/stars/emclaniyi/ML-Precision-Agriculture-Web-App?style=social&color=white)](https://github.com/emclaniyi/ML-Precision-Agriculture-Web-App/stargazers)  
+13. **[ML Precision Agriculture Web App](https://github.com/emclaniyi/ML-Precision-Agriculture-Web-App)** [![GitHub_Stars](https://img.shields.io/github/stars/emclaniyi/ML-Precision-Agriculture-Web-App?style=social&color=white)](https://github.com/emclaniyi/ML-Precision-Agriculture-Web-App/stargazers)  
     *Streamlit-based diagnostic web application.* Utilizes Support Vector Machines (SVM) and multi-class classification to diagnose crop nutrient deficiencies, calculate fertilizer application rates, and recommend intervention timelines.
 
-14. **[CSIRO PAT QGIS Plugin](https://github.com/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin)** [![GitHub stars](https://img.shields.io/github/stars/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin?style=social&color=white)](https://github.com/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin/stargazers)  
+14. **[CSIRO PAT QGIS Plugin](https://github.com/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin)** [![GitHub_Stars](https://img.shields.io/github/stars/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin?style=social&color=white)](https://github.com/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin/stargazers)  
     *Precision Agriculture Tools (PAT) plugin for QGIS developed by Australia's national science agency (CSIRO).* Specializes in raw yield-monitor data cleaning, spatial interpolation (ordinary kriging), spatial variability mapping, and within-field management zone delineation for targeted fertilizer prescriptions.
 
-15. **[Soil Moisture Prediction Satellite ML](https://github.com/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data)** [![GitHub stars](https://img.shields.io/github/stars/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data?style=social&color=white)](https://github.com/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data/stargazers)  
+15. **[Soil Moisture Prediction Satellite ML](https://github.com/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data)** [![GitHub_Stars](https://img.shields.io/github/stars/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data?style=social&color=white)](https://github.com/Beckybams/Soil-Moisture-Prediction-from-Satellite-Data/stargazers)  
     *Machine learning pipeline for satellite-derived soil moisture estimation.* Leverages multispectral satellite observations to model root-zone moisture variability without relying entirely on physical ground sensor grids.
 
-16. **[CSIRO pyprecag](https://github.com/CSIRO-Precision-Agriculture/pyprecag)** [![GitHub stars](https://img.shields.io/github/stars/CSIRO-Precision-Agriculture/pyprecag?style=social&color=white)](https://github.com/CSIRO-Precision-Agriculture/pyprecag/stargazers)  
+16. **[CSIRO pyprecag](https://github.com/CSIRO-Precision-Agriculture/pyprecag)** [![GitHub_Stars](https://img.shields.io/github/stars/CSIRO-Precision-Agriculture/pyprecag?style=social&color=white)](https://github.com/CSIRO-Precision-Agriculture/pyprecag/stargazers)  
     *Python library for precision agriculture analytics.* Core geospatial toolkit powering automated spatial data cleaning, semi-variogram fitting, and zone-based VRA rate calculation across commercial broadacre farms.
 
-17. **[Agri-Vision System](https://github.com/maknoonisar/agricultural-AI)** [![GitHub stars](https://img.shields.io/github/stars/maknoonisar/agricultural-AI?style=social&color=white)](https://github.com/maknoonisar/agricultural-AI/stargazers)  
+17. **[Agri-Vision System](https://github.com/maknoonisar/agricultural-AI)** [![GitHub_Stars](https://img.shields.io/github/stars/maknoonisar/agricultural-AI?style=social&color=white)](https://github.com/maknoonisar/agricultural-AI/stargazers)  
     *AI-driven agricultural intelligence platform.* Features interactive Mapbox geospatial visualizations, drone/satellite NDVI mapping, computer vision diagnostics, and automated resource optimization recommendations for variable-rate irrigation and fertilization.
 
-18. **[Cropping Systems GIS & ML](https://github.com/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems)** [![GitHub stars](https://img.shields.io/github/stars/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems?style=social&color=white)](https://github.com/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems/stargazers)  
+18. **[Cropping Systems GIS & ML](https://github.com/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems)** [![GitHub_Stars](https://img.shields.io/github/stars/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems?style=social&color=white)](https://github.com/halilunaziru73-creator/Operationalizing-GIS-and-Machine-Learning-across-Contrasting-Cropping-Systems/stargazers)  
     *GIS, remote sensing, and machine learning research pipeline.* Demonstrates spatial fertility mapping and empirical variable-rate NPK/liming prescriptions (validated across a 16.85 ha maize case study in Portugal, cutting lime consumption by 2.69 tons versus uniform application).
 
 ---
@@ -181,7 +181,7 @@ Contributions to this ecosystem are warmly welcomed! To contribute:
 2. **Add or refine an entry** in `README.md` following the established table or list format.
 3. Ensure entries include:
    - Tool/Project Name and official link
-   - Specific pricing model (for SaaS) or GitHub repository link with stars badge (for Open-Source)
+   - Specific pricing model (for SaaS) or GitHub repository link with Stars_Badge (for Open-Source)
    - 1–2 factual sentences highlighting variable-rate fertilizer orchestration capabilities.
 4. **Submit a Pull Request (PR)** with a clear title and description of your proposed additions.
 
